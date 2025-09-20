@@ -4,8 +4,8 @@
     "express": "^5.1.0",
     "ws": "^8.18.3"
   }
-}
-"scripts": {
+  "scripts": {
   "start": "node server.js",
   "build": "echo 'No build step required'"
+}
 }

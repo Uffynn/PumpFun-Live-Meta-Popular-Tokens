@@ -59,7 +59,7 @@
       React.useEffect(() => {
         const fetchTokens = async () => {
           try {
-            const response = await axios.get('http://localhost:3000/api/tokens');
+            const response = await axios.get('https://uffynn.github.io/PumpFun-Live-Meta-Popular-Tokens/');
             setTokens(response.data);
             setError(null);
           } catch (err) {

@@ -14,7 +14,7 @@ app.use(express.json());
 console.log('Starting Express server...');
 
 // Connect to PumpPortal WebSocket
-const ws = new WebSocket('wss://pumpportal.fun/api/data');
+let ws = new WebSocket('wss://pumpportal.fun/api/data');
 
 ws.on('open', () => {
   console.log('Connected to PumpPortal WebSocket');

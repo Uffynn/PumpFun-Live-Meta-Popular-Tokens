@@ -59,7 +59,7 @@
       React.useEffect(() => {
         const fetchTokens = async () => {
           try {
-            const response = await axios.get('https://pumpfun-live-meta-popular-tokens.onrender.com');
+            const response = await axios.get('https://pumpfun-live-meta-popular-tokens.onrender.com/api/tokens');
             setTokens(response.data);
             setError(null);
           } catch (err) {

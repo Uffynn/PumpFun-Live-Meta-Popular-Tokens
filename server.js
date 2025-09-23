@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 
 // Log server startup
-console.log('Starting Express server...');
+console.log('Starting Express server...'); 
 
 // Connect to PumpPortal WebSocket
 let ws = new WebSocket('wss://pumpportal.fun/api/data');
